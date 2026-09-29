@@ -8,7 +8,9 @@ const menuItems = [
   { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
   { title: 'Clientes', icon: 'mdi-account-group', to: '/clientes' },
   { title: 'Facturación', icon: 'mdi-receipt', to: '/facturacion' },
-  { title: 'Contabilidad', icon: 'mdi-calculator', to: '/contabilidad' }
+  { title: 'Contabilidad', icon: 'mdi-calculator', to: '/contabilidad' },
+  { title: 'Motor Contable', icon: 'mdi-cogs', to: '/motor-contable' },
+  { title: 'Acerca de', icon: 'mdi-cash-register', to: '/about' }
 ]
 </script>
 <template>
@@ -23,7 +25,7 @@ const menuItems = [
       <v-spacer />
       <v-chip color="white" variant="outlined">
         <v-icon start>mdi-school</v-icon>
-        Universidad
+        IUJO
       </v-chip>
     </v-app-bar>
     <!-- MENÚ LATERAL -->

@@ -4,6 +4,7 @@ import Dashboard from '../views/Dashboard.vue'
 import Clientes from '../views/Clientes.vue'
 import Facturacion from '../views/Facturacion.vue'
 import Contabilidad from '../views/Contabilidad.vue'
+import MotorContable from '../views/MotorContable.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/contabilidad',
       name: 'contabilidad',
       component: Contabilidad
+    },
+    {
+      path: '/motor-contable',
+      name: 'motor-contable',
+      component: MotorContable  
     },
     {
       path: '/about',
